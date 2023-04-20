@@ -16,3 +16,15 @@ html{
     text-align: center;
     font-size: 5em;
 }
+@media(max-width:630px){
+    .cabecalho{ 
+        flex-direction: column; 
+    } 
+    .cabecalho nav { 
+        flex-wrap: nowrap; 
+    } 
+    .cabecalho a { 
+        padding: 5vh 0; 
+        font-size: 2rem; 
+    }
+}
