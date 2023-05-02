@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     max-width: 80vw;
     margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .conteudo > div {
@@ -14,4 +15,7 @@
 .conteudo > div > img {
     display: block;
     width: 100%;
+}
+.conteudo p{
+    font-size: 1.8rem;
 }
