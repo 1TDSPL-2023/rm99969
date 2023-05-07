@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:"Comic Sans MS", "Comic Sans", cursive;
+}
+html{
+    font-size: 16px;
+}
+header{
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+header h1{
+    padding: 1% 0;
+    cursor: pointer;
+}
+.conteudo{
+    display: flex;
+    justify-content: space-evenly;
+}
