@@ -34,7 +34,6 @@ h3Element.addEventListener("click", ()=>{
     const imgElement = document.getElementById("imgEx3");
     imgElement.src = "../img/lobo1.jpg"
     h3Element.innerHTML = "Clique para voltar a imagem"
-    h3Element.removeEventListener();
 });
 
 //EX 4 - CRIAR UM BOTÃO QUE ADICIONA UMA MENSAGEM EM ALGUM ELEMENTO
