@@ -24,3 +24,30 @@ header h1{
     display: flex;
     justify-content: space-evenly;
 }
+img {
+    width: 200px;
+}
+.ex3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    background-color: burlywood;
+    padding: 10px;
+    cursor:pointer;
+}
+.ex4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#msg{
+    text-align: center;
+}
+#changeBtn{
+    background-color: rgb(68, 141, 236);
+    cursor: pointer;
+    border: solid 2px rgb(35, 126, 245);
+}

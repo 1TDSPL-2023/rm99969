@@ -26,3 +26,21 @@ formElement.addEventListener("submit", ()=>{
     addInput.value = '';
     ul.appendChild(li);
 });
+
+//EX 3 -  CRIAR UM BOTÃO QUE TROCA UMA IMAGEM POR OUTRA
+const h3Element = document.querySelector('#imgBtn');
+
+h3Element.addEventListener("click", ()=>{
+    const imgElement = document.getElementById("imgEx3");
+    imgElement.src = "../img/lobo1.jpg"
+    h3Element.innerHTML = "Clique para voltar a imagem"
+    h3Element.removeEventListener();
+});
+
+//EX 4 - CRIAR UM BOTÃO QUE ADICIONA UMA MENSAGEM EM ALGUM ELEMENTO
+const changeBtn = document.getElementById("changeBtn");
+
+changeBtn.addEventListener("click", ()=>{
+    const msgElement = document.getElementById("msg");
+    msgElement.innerHTML = "Número aleatório: " + Math.round(Math.random()*1000);
+});
