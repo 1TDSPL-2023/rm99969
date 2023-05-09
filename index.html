@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Layout</title>
     <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="./js/script.js" defer></script>
 
 </head>
@@ -55,16 +56,25 @@
     <h2>Me jogue aos lobos e eu voltarei lider- AIAIAI O LOBO ME MORDEU</h2>
 
     <div>
-        <form action="/index.html" method="get" onsubmit="return true">
+        <form action="/index.html" method="get" onsubmit="return false">
             <fieldset>
-                <legend>Contato</legend>
+                <legend>Login</legend>
                 <div>
-                    <label for="idNome">Nome</label>
-                    <input type="text" name="txtNome" id="idNome" placeholder="Nome">
+                    <label for="idEmail">E-mail</label>
+                    <input 
+                    type="email" 
+                    name="txtEmail" 
+                    id="idEmail" 
+                    placeholder="E-mail" 
+                    pattern="[A-Za-z0-9]">
                 </div>
                 <div>
-                    <label for="idEmail">Email</label>
-                    <input type="email" name="txtEmail" id="idEmail" placeholder="Email">
+                    <label for="idSenha">Senha</label>
+                    <input type="password" 
+                    name="txtSenha" 
+                    id="idSenha" 
+                    placeholder="Senha">
+                    <i class="fa fa-eye" aria-hidden="true"></i>
                 </div>
                 <div>
                     <button type="submit" id="btnSubmit">Entrar</button>

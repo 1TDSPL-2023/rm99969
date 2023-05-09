@@ -22,8 +22,7 @@ html{
     cursor: pointer;
 }
 fieldset{
-    width: 300px;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
