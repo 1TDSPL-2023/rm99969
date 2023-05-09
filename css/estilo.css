@@ -21,3 +21,9 @@ html{
     font-family: 'Courier New', Courier, monospace;
     cursor: pointer;
 }
+fieldset{
+    width: 300px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    font-weight: bold;
+}

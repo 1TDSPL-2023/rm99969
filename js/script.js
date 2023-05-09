@@ -11,3 +11,8 @@ h2Element.addEventListener("click", ()=>{
 
     h2Element.setAttribute("style", `color:rgb(${r},${g},${b});`);
 });
+
+const imgElements = [...document.querySelectorAll(".conteudo img")];
+imgElements.forEach((img)=>{
+    img.setAttribute("style", "width:30%")
+});

@@ -48,6 +48,6 @@ hideBtn.addEventListener("click", ()=>{
         hideBtn.value = "Clique aqui para esconder o gif abaixo!"
       } else {
         gifEmoji.style.display = "none";
-        hideBtn.value = "Clique novamente para voltar o gif!"
+        hideBtn.value = "Clique novamente para mostrar o gif!"
       }
 });
